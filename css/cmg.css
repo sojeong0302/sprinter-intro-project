@@ -40,6 +40,12 @@ main {
   text-align: left;
   line-height: 1.2px;
 }
+.link {
+  transition: 0.3s;
+}
+.link:hover {
+  opacity: 0.5;
+}
 section {
   display: flex;
   justify-content: center;
