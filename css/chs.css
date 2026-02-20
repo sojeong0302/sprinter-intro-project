@@ -29,6 +29,33 @@ body {
   justify-content: center;
 }
 
+.introduction-header {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.self-introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px 3px rgba(175, 175, 175, 0.548);
+  transition: transform 0.3s ease; /* 부드럽게 확대/축소 */
+  transform: scale(1); /* 원본 크기 */
+}
+
+.profile-img:hover {
+  transform: scale(1.2);
+}
+
 .gnb-home {
   display: flex;
   justify-content: end;
@@ -46,6 +73,8 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+
+  cursor: pointer;
 }
 
 h1 {
