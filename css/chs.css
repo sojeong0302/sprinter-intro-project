@@ -80,6 +80,10 @@ body {
   cursor: pointer;
 }
 
+.home:hover {
+  background-color: rgba(56, 31, 199, 0.911);
+}
+
 h1 {
   color: #333333;
   margin-bottom: 10px;
