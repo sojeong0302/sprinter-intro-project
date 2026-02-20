@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+main {
+  margin: 30px auto;
+  width: 1000px;
+}
+
+header,
+footer {
+  background-image: linear-gradient(315deg, #ee8e6b 0%, #ef6da0 74%);
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  height: 70px;
+  padding: 0 30px;
+}
+
+header > div:nth-child(2) {
+  font-size: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+section img {
+  display: inline-block;
+}
+
+section > div {
+  margin: 30px 0;
+}
+
+section .img_area img {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  height: 50px;
+  padding: 15px 0;
+  font-size: 12px;
+}
+
+.btn-home {
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 0.5rem;
+  color: #ee8e6b;
+  font-size: 10px;
+}
