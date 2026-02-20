@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.body {
+  min-height: 100vh; 
+}
+
 .header-bar {
   display: flex;
   height: 130px;
@@ -20,11 +24,12 @@
 
 .team-card-container {
   display: flex;
-  max-width: 1000px;
-  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1000px;
+  height: calc(100vh - 130px - 100px); 
+  margin: 0 auto;
 }
 
 .team-card-list {
@@ -71,11 +76,15 @@
   transform: scale(1.2);
 }
 
-footer {
+.footer-bar {
   display: flex;
   height: 100px;
   justify-content: center;
   align-items: center;
   background-color: rgb(61, 61, 61);
   color: #b6b6b6;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
