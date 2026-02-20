@@ -19,7 +19,7 @@ body {
 
 .container {
   display: flex;
-  max-width: 800px;
+  max-width: 750px;
   margin: 50px;
   background-color: #ffffff;
   padding: 40px;
@@ -32,8 +32,9 @@ body {
 .introduction-header {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  margin-bottom: 30px;
+  gap: 40px;
+  padding-bottom: 50px;
+  border-bottom: 1px dashed rgb(151, 151, 151);
 }
 
 .self-introduction {
