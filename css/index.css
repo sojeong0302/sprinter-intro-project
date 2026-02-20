@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.header-bar {
+  display: flex;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  padding: 20px;
+  border-bottom: 2px solid rgba(146, 146, 146, 0.918);
+  background-color: #9191ff;
+  /*   
+  position: sticky;
+  top: 0;
+  z-index: 200; */
+}
+
+.team-card-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-card-list {
+  display: flex;
+  list-style-type: none;
+  padding: 60px;
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.team-card {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.name {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: none;
+  box-shadow: 5px 5px 5px 5px rgba(177, 177, 177, 0.3);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  color: black;
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+
+  transition: transform 0.3s ease; /* 부드럽게 확대/축소 */
+  transform: scale(1); /* 원본 크기 */
+}
+
+.name:hover {
+  background-color: rgba(252, 211, 98, 0.952);
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 61, 61);
+  color: #b6b6b6;
+}
